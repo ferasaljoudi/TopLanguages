@@ -5,28 +5,28 @@ const fetcher = (variables) => {
     return axios.post(
         'https://api.github.com/graphql',
         {
-        query: `
-        query userInfo($login: String!) {
-            user(login: $login) {
-            repositories(ownerAffiliations: OWNER, first: 100) {
-                nodes {
-                name
-                isFork
-                languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
-                    edges {
-                    size
-                    node {
-                        color
-                        name
-                    }
+            query: `
+            query userInfo($login: String!) {
+                user(login: $login) {
+                    repositories(ownerAffiliations: OWNER, first: 100) {
+                        nodes {
+                            name
+                            isFork
+                            languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
+                                edges {
+                                size
+                                    node {
+                                        color
+                                        name
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
-                }
             }
-            }
-        }
-        `,
-        variables,
+            `,
+            variables,
         },
         {
         headers: {
