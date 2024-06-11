@@ -30,6 +30,17 @@ The service provides an API endpoint that returns an image showing the most used
 </div>
 <br>
 
+<!-- Languages
+JavaScript
+Web Development
+Express.js
+Tools and Platforms
+Casa OS
+Docker
+VS Code
+Hardware Development
+Raspberry Pi -->
+
 <div align = "center">
 <table>
   <tr>
