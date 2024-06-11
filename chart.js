@@ -1,5 +1,3 @@
-const { createCanvas } = require('canvas');
-
 const generateLanguageChartSVG = (languages, titleColor = '#FFFFFF', backgroundColor = '#0d1117') => {
     const totalSize = Object.values(languages).reduce((acc, lang) => acc + lang.size, 0);
 
@@ -16,11 +14,9 @@ const generateLanguageChartSVG = (languages, titleColor = '#FFFFFF', backgroundC
     const fontSize = 14;
     const textPadding = 10;
 
-    // Measuring the maximum width of the language names
-    const canvas = createCanvas(800, 200);
-    const context = canvas.getContext('2d');
-    context.font = `${fontSize}px Arial`;
-    const maxTextWidth = Math.max(...languageNames.map(name => context.measureText(name).width));
+    // Estimating the maximum width of the language names
+    const maxTextWidth = Math.max(...languageNames.map(name => name.length * (fontSize * 0.6)));
+
     const barStartX = maxTextWidth + 2 * textPadding;
 
     const chartHeight = (barHeight + barSpacing) * languageNames.length + 50;

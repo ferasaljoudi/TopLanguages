@@ -7,7 +7,7 @@ const { generateLanguageListSVG } = require('./list');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 86;
 
 app.use(favicon(path.join(__dirname, 'public', 'icon.png')));
 app.use('/public', express.static(path.join(__dirname, 'public')));
