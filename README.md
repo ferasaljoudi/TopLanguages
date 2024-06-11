@@ -24,12 +24,68 @@ The service provides an API endpoint that returns an image showing the most used
 - `titleColor` (optional): The color of the image title in hex format. Default is `#FFFFFF`.
 - `backgroundColor` (optional): The background color of the chart in hex format. Default is `#0d1117`.
 
+<br>
+<div style="width: 100%;">
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/technologiesUsed.svg" alt="Technologies Used" style="width: 100%"></a>
+</div>
+<br>
 
-<!-- <div style="width: 100%;">
+<div align = "center">
+<table>
+  <tr>
+    <td>
+      InProgress
+    </td>
+    <td>
+      InProgress
+    </td>
+    <td>
+      <a href="https://nodejs.org/en"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/nodeJs.svg" alt="Node Js"></a>
+    </td>
+  </tr>
+</table>
+</div>
 
-![Feras' MostUsedLanguages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list)
+<br>
+<div style="width: 100%;">
+    <a href="#"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/BrownSVGs/requestDemonstrations.svg" alt="Request Demonstrations" style="width: 100%"></a>
+</div>
+<br>
 
-</div> -->
+## Default request:
+
+Replace the `username` value with your github username
+```sh
+![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi)
+```
+### Demo:
+
+![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi)
+
+## Format request:
+
+`format` value can be `chart`, which is the default, or `list` as the below example
+
+Replace the `username` value with your github username
 
 ```sh
-https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi
+![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list)
+```
+### Demo:
+
+![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list)
+
+## Color request:
+
+`titleColor` and `backgroundColor` can be applied to both `chart` and `list` format
+
+Replace the `username` value with your github username
+
+Replace the `titleColor` and `backgroundColor` values with the color of your choice
+
+```sh
+![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list&titleColor=1E90F0&backgroundColor=000020)
+```
+### Demo:
+
+![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list&titleColor=1E90F0&backgroundColor=000020)
