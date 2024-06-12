@@ -22,7 +22,8 @@ app.get('/api/top-langs/image', async (req, res) => {
     const formattedTitleColor = titleColor ? `#${titleColor}` : '#FFFFFF';
     const formattedBackgroundColor = backgroundColor ? `#${backgroundColor}` : '#0d1117';
 
-    console.log(`Received request for username: ${username}, format: ${format}, titleColor: ${formattedTitleColor}, backgroundColor: ${formattedBackgroundColor}`);
+    const currentDateTime = new Date().toLocaleString();
+    console.log(`[${currentDateTime}] Received request for username: ${username}, format: ${format}, titleColor: ${formattedTitleColor}, backgroundColor: ${formattedBackgroundColor}`);
 
     try {
         const languages = await fetchTopLanguages(username);
