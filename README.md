@@ -30,18 +30,19 @@ The service provides an API endpoint that returns an image showing the most used
 </div>
 <br>
 
-<!-- Languages
-JavaScript
-Web Development
-Express.js
-Tools and Platforms
-Casa OS
-Docker
-VS Code
-Hardware Development
-Raspberry Pi -->
+<h2 align = "center">👨‍💻 Languages</h2>
 
-<div align = "center">
+<div align="center">
+<table>
+  <tr>
+    <td>
+      <a href="https://www.w3schools.com/js/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Languages/Left/javaScript.svg" alt="JavaScript"></a>
+    </td>
+  </tr>
+</table>
+
+<h2 align = "center">🌐 Web Development</h2>
+
 <table>
   <tr>
     <td>
@@ -55,6 +56,15 @@ Raspberry Pi -->
     </td>
   </tr>
 </table>
+
+<!--
+Tools and Platforms
+Casa OS
+Docker
+VS Code
+Hardware Development
+Raspberry Pi -->
+
 </div>
 
 <br>
