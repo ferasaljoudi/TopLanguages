@@ -55,9 +55,37 @@ The service provides an API endpoint that returns an image showing the most used
   </tr>
 </table>
 
-<!-- <h2 align = "center">🌐 Web Development</h2> -->
+<h2 align = "center">💻 Tools and Platforms</h2>
+
+<div align = "center">
+<table>
+  <tr>
+    <td>
+      <a href="https://code.visualstudio.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Left/vsCode.svg" alt="VS CODE"></a>
+    </td>
+    <td>
+      <a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Middle/docker.svg" alt="Docker"></a>
+    </td>
+    <td>
+      <a href="https://casaos.io/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Right/casaOs.svg" alt="Casa Os"></a>
+    </td>
+  </tr>
+</table>
+</div>
+
+<h2 align = "center">⚙️ Hardware Development</h2>
+
+<div align = "center">
+<table>
+  <tr>
+    <td>
+      <a href="https://www.raspberrypi.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Hardware/Right/raspberryPi.svg" alt="RASPBERRY PI"></a>
+    </td>
+  </tr>
+</table>
+</div>
+
 <!--
-Tools and Platforms
 Casa OS
 Docker
 VS Code
