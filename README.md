@@ -46,10 +46,8 @@ The service provides an API endpoint that returns an image showing the most used
 <table>
   <tr>
     <td>
-      InProgress
-    </td>
-    <td>
-      InProgress
+      <a href="https://www.npmjs.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/npm.svg" alt="NPM"></a>
+      <br>
     </td>
     <td>
       <a href="https://nodejs.org/en"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/nodeJs.svg" alt="Node Js"></a>
@@ -57,6 +55,7 @@ The service provides an API endpoint that returns an image showing the most used
   </tr>
 </table>
 
+<!-- <h2 align = "center">🌐 Web Development</h2> -->
 <!--
 Tools and Platforms
 Casa OS
