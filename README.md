@@ -40,9 +40,11 @@ The service provides an API endpoint that returns an image showing the most used
     </td>
   </tr>
 </table>
+</div>
 
 <h2 align = "center">🌐 Web Development</h2>
 
+<div align = "center">
 <table>
   <tr>
     <td>
@@ -54,6 +56,7 @@ The service provides an API endpoint that returns an image showing the most used
     </td>
   </tr>
 </table>
+</div>
 
 <h2 align = "center">💻 Tools and Platforms</h2>
 
@@ -83,15 +86,6 @@ The service provides an API endpoint that returns an image showing the most used
     </td>
   </tr>
 </table>
-</div>
-
-<!--
-Casa OS
-Docker
-VS Code
-Hardware Development
-Raspberry Pi -->
-
 </div>
 
 <br>
