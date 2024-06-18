@@ -50,8 +50,6 @@ The service provides an API endpoint that returns an image showing the most used
     <td>
       <a href="https://www.npmjs.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/npm.svg" alt="NPM"></a>
       <br>
-    </td>
-    <td>
       <a href="https://nodejs.org/en"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/nodeJs.svg" alt="Node Js"></a>
     </td>
   </tr>
@@ -65,11 +63,9 @@ The service provides an API endpoint that returns an image showing the most used
   <tr>
     <td>
       <a href="https://code.visualstudio.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Left/vsCode.svg" alt="VS CODE"></a>
-    </td>
-    <td>
+      <br>
       <a href="https://www.docker.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Middle/docker.svg" alt="Docker"></a>
-    </td>
-    <td>
+      <br>
       <a href="https://casaos.io/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/ToolsAndPlatforms/Right/casaOs.svg" alt="Casa Os"></a>
     </td>
   </tr>
