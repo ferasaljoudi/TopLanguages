@@ -3,7 +3,7 @@ const generateLanguageListSVG = (languages, titleColor = '#FFFFFF', backgroundCo
 
     // Calculating the widths for the bar segments
     let currentX = 0;
-    const barWidth = 250;
+    const barWidth = 270;
     const barSegments = Object.keys(languages).map(lang => {
         const language = languages[lang];
         const percentage = ((language.size / totalSize) * 100).toFixed(2);
@@ -23,7 +23,7 @@ const generateLanguageListSVG = (languages, titleColor = '#FFFFFF', backgroundCo
     const fontSize = 11;
 
     let svg = `
-    <svg width="300" height="${svgHeight}" viewBox="0 0 300 ${svgHeight}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="descId">
+    <svg width="380" height="${svgHeight}" viewBox="0 0 380 ${svgHeight}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="descId">
         <title id="titleId"></title>
         <desc id="descId"></desc>
         <style>
@@ -42,9 +42,9 @@ const generateLanguageListSVG = (languages, titleColor = '#FFFFFF', backgroundCo
             @keyframes fadeInAnimation { from { opacity: 0; } to { opacity: 1; } }
         </style>
 
-        <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#e4e2e2" width="299" fill="${backgroundColor}" stroke-opacity="0" />
+        <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#e4e2e2" width="320" fill="${backgroundColor}" stroke-opacity="0" />
         <g data-testid="card-title" transform="translate(0, 35)">
-            <g transform="translate(150, 0)">
+            <g transform="translate(160, 0)">
                 <text x="0" y="0" text-anchor="middle" class="header" data-testid="header">Most Used Languages</text>
             </g>
         </g>
