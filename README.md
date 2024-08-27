@@ -94,11 +94,11 @@ The service provides an API endpoint that returns an image showing the most used
 
 Replace the `username` value with your github username
 ```sh
-![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi)
+![Most Used Languages](https://top-languages.aljoudi.ca/api/top-langs/image?username=ferasaljoudi)
 ```
 ### Demo:
 
-![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi)
+![Most Used Languages](https://top-languages.aljoudi.ca/api/top-langs/image?username=ferasaljoudi)
 
 ## Format request:
 
@@ -107,11 +107,11 @@ Replace the `username` value with your github username
 Replace the `username` value with your github username
 
 ```sh
-![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list)
+![Most Used Languages](https://top-languages.aljoudi.ca/api/top-langs/image?username=ferasaljoudi&format=list)
 ```
 ### Demo:
 
-![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list)
+![Most Used Languages](https://top-languages.aljoudi.ca/api/top-langs/image?username=ferasaljoudi&format=list)
 
 ## Color request:
 
@@ -122,8 +122,8 @@ Replace the `username` value with your github username
 Replace the `titleColor` and `backgroundColor` values with the color of your choice
 
 ```sh
-![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list&titleColor=1E90F0&backgroundColor=000020)
+![Most Used Languages](https://top-languages.aljoudi.ca/api/top-langs/image?username=ferasaljoudi&format=list&titleColor=1E90F0&backgroundColor=000020)
 ```
 ### Demo:
 
-![Most Used Languages](https://aljoudi-service.csproject.org/api/top-langs/image?username=ferasaljoudi&format=list&titleColor=1E90F0&backgroundColor=000020)
+![Most Used Languages](https://top-languages.aljoudi.ca/api/top-langs/image?username=ferasaljoudi&format=list&titleColor=1E90F0&backgroundColor=000020)
