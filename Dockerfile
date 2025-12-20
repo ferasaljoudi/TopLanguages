@@ -13,11 +13,13 @@ FROM node:lts-bullseye-slim
 WORKDIR /usr/src/app
 
 COPY package*.json ./
-
 RUN npm install
 
 COPY . .
 
-EXPOSE 86
+# Limit node memory to avoid OOM on RPi
+ENV NODE_OPTIONS="--max-old-space-size=192"
+
+EXPOSE 80
 
 CMD ["node", "server.js"]

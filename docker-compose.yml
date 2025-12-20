@@ -1,12 +1,15 @@
-version: '3.9'
+version: "3.9"
 
 services:
   top-langs:
+    image: ferasaljoudi/top-langs:latest
     platform: linux/arm64
-    build:
-      context: .
-      dockerfile: Dockerfile
     ports:
-      - "86:86"
+      - "85:80"
     environment:
-      - GITHUB_TOKEN=*************************************
+      - GITHUB_TOKEN=*********************************
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+    restart: unless-stopped
